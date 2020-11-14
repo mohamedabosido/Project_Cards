@@ -151,3 +151,8 @@ footer{
 footer p{
     text-align: center;
 }
+footer p a{
+    color: #337ab7;
+    font-weight: 500;
+    
+}
