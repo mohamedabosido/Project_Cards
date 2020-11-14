@@ -1,0 +1,153 @@
+/*General*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    width: 70%; 
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.pd-y{
+    padding: 15px 0 ;
+}
+/*Header*/
+header{
+    background-color:#222222 ;
+    height: 45px;
+}
+header nav img{
+    width: 110px;
+    height: 40px;
+    margin: auto;
+}
+header nav ul {
+    display: inline-block;
+}
+header nav ul li{
+float: left;
+padding: 10px;
+transition: color 0.3s;
+}
+header nav ul li a{
+    color: #9d9d9d;
+    transition: color 0.3s;
+}
+header span{
+    float: right;
+    padding: 10px ;
+    transition: color 0.3s;
+}
+header span a{
+    color: #9d9d9d;
+    transition: color 0.3s;
+}
+header nav ul li.active{
+    background-color: #080808;
+    
+}
+header nav ul li.active a{
+    color: #fff;
+}
+
+header nav ul li:hover ,header span:hover{
+    background-color: #080808;
+}
+header nav ul li a:hover,header span a:hover{
+    color: #fff;
+}
+
+/*Section 1*/
+.section1{
+    border-bottom: 1px solid #eeeeee;
+}
+.section1 .tittle{
+    color: #333333;
+    font-size: 30px;
+    padding: 20px;
+}
+.section1 .desc{
+    color: #777777;
+}
+
+/*Cards Section*/
+.cards .card{
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin: 0 15px;
+}
+.cards .card img{
+    width: 100%;
+    transition: opacity 0.3s;
+}
+.cards .card img:hover{
+    opacity: 0.8;
+}
+.cards .card .card-body{
+    padding-top: 5px;
+}
+.cards .card .card-body h4{
+    color: #337ab7;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.cards ,.card .card-body p{
+    color: #341d1d;
+    font-size: 15px;
+}
+/*People Section*/
+.people{
+    background-color: #87cefa;
+}
+.people .item {
+    float: left;
+    width: 30%;
+    padding: 50px 0;
+    margin: 0 15px;
+    text-align: center;
+}
+.people .item img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.people .item .people-body h5{
+    color: #19199c;
+    font-size: 25px;
+    font-weight: 400;
+}
+.people .item .people-body p{
+    color: #333333;
+    margin-bottom: 15px;
+}
+.people .item .people-body button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: all 0.2s;
+}
+.people .item .people-body button:hover{
+    background-color:#19199c;
+    margin-top: 0.3px;
+}
+/*Footer*/
+footer{
+    padding: 30px 0;
+}
+footer p{
+    text-align: center;
+}
